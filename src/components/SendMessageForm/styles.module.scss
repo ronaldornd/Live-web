@@ -1,0 +1,107 @@
+.sendMessageWrapper {
+  background: #e705051a;
+  padding: 25px;
+  
+  position:relative;
+  display: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  margin: 11px;
+  .signOut {
+    background: transparent;
+    border: 0;
+    color: #c4c4cc;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    cursor: pointer;
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .userImage {
+      padding: 3px;
+      background: linear-gradient(100deg, #ff1e1e 0, #ffffff 100%);
+      border-radius: 50%;
+      line-height: 0;
+      img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 6px solid #121214;
+      }
+    }
+    .userName {
+      font-size: 24px;
+      line-height: 30px;
+      margin-top: 16px;
+    }
+    .userGit {
+      display: flex;
+      align-items: center;
+      margin-top: 8px;
+      color: #c4c4cc;
+      svg {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .sendMessageForm {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin-top: 25px;
+    background: #202024;
+    label {
+      padding: 15px 15px;
+      font-size: 20px;
+      background: #29292e;
+      font-weight: bold;
+      text-align: left;
+    }
+    textarea {
+      background: transparent;
+      border: 0;
+      padding: 20px;
+      resize: none;
+      height: 110px;
+      color: #e1e1e6;
+      font-size: 16px;
+      line-height: 20px;
+      &:focus {
+        outline: 0;
+      }
+      &::placeholder {
+        color: #8d8d99;
+      }
+    }
+    button {
+      align-self: flex-end;
+      background: #ff1e1e;
+      margin: 24px;
+      padding: 0 32px;
+      height: 40px;
+      cursor: pointer;
+      color: #09090a;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+}
