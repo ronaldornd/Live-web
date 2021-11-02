@@ -37,7 +37,7 @@ export function AuthProvider(props: AuthProvider){
     
 
     async function signIn(gitCode:string) {
-        const response = await api.post<AuthResponse>('authenticate',{code:gitCode})
+        const response = await api.post<AuthResponse>('authenticate/web',{code:gitCode})
         const {token, user} = response.data;
         localStorage.setItem('@tokenRND', token);
         setUser(user)  
