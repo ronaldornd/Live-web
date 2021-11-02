@@ -19,7 +19,8 @@ export function SendMessageForm(){
     return(
         <div className={styles.sendMessageWrapper}>
             <button onClick={siginOut} className={styles.signOut}><VscSignOut size="32"/></button>
-            <head className={styles.userInfo}>
+            
+            <header className={styles.userInfo}>
                 <div className={styles.userImage}>
                     <img src={user?.avatar_url}></img>
                 </div>
@@ -28,7 +29,8 @@ export function SendMessageForm(){
                     <VscGithubInverted size="16"/>
                     {user?.login}
                 </span>
-            </head>
+            </header>
+            
             <form className={styles.sendMessageForm} onSubmit={sendMessage}>
                 <label htmlFor="message">Mensagem</label>
                 <textarea name="message" id="message" placeholder="Fala aew!"
