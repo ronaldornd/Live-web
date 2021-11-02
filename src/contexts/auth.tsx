@@ -41,7 +41,8 @@ export function AuthProvider(props: AuthProvider){
         const {token, user} = response.data;
         localStorage.setItem('@tokenRND', token);
         setUser(user)  
-        
+        console.log(token);
+
     }
 
     function siginOut(){
