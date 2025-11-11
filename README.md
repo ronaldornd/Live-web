@@ -144,12 +144,3 @@ Abaixo há um preview da interface. Para exibir a imagem no README, copie o arqu
 
 ![Live Messages preview](src/assets/nlwweb.png)
 
-Se preferir outro nome/posição, ajuste o caminho acima. Exemplo no Windows PowerShell para copiar a imagem para a pasta `assets`:
-
-```powershell
-# copie o arquivo localmente para o repositório
-Copy-Item 'C:\caminho\para\o\anexo\live-preview.png' -Destination '.\assets\preview.png'
-```
-
-> Observação: a pasta `assets/` já existe neste repositório; coloque a imagem em `assets/preview.png` para que o Markdown mostre o preview automaticamente no GitHub/Workana.
-
