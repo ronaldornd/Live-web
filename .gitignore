@@ -1,1 +1,11 @@
 /node_modules
+# Logs
+yarn-error.log
+
+# Env files
+.env
+.env.local
+.env.*.local
+.env.production
+.env.test
+.env.*.production
