@@ -118,15 +118,9 @@ src/
 - Tempo real estável: fila local de mensagens + atualização em cadência para evitar saltos visuais
 - Gestão de dependências: padronização no npm e remoção de libs incompatíveis/não usadas
 
-## 📊 Resultados/impacto (preencha com seus números)
 
-- Tempo de inicialização do dev server com Vite: <X s
-- Aumento de engajamento no chat: +Y% mensagens/min
-- Conversão com SSO GitHub vs cadastro tradicional: +Z%
 
-> Substitua X/Y/Z por métricas reais do seu uso/apresentação.
-
-## 🏷️ Tags para portfólio (Workana)
+## 🏷️ Tags para portfólio
 
 React, TypeScript, Vite, SPA, OAuth, GitHub Login, Socket.IO, WebSockets, Axios, SCSS Modules, Front-end, Real-time, Chat, Context API, Single Page Application.
 
@@ -140,7 +134,6 @@ React, TypeScript, Vite, SPA, OAuth, GitHub Login, Socket.IO, WebSockets, Axios,
 
 ## 🖼️ Screenshot / Preview
 
-Abaixo há um preview da interface. Para exibir a imagem no README, copie o arquivo de imagem que você tem para o repositório no caminho `assets/preview.png`.
 
 ![Live Messages preview](src/assets/nlwweb.png)
 
